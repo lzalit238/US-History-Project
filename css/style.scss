@@ -1,0 +1,27 @@
+$bg-main: #598970;
+@import "../node_modules/bootstrap/scss/bootstrap";
+$theme-colors: (
+  "primary":    $green,
+  "secondary":  $green-900,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+body {
+  background-color: $bg-main;
+}
+
+#horizontal {
+  background-color: $secondary;
+}
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+
+// Then add additional custom code here
