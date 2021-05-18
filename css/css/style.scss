@@ -1,28 +1,23 @@
 $bg-main: #598970;
-@import "../node_modules/bootstrap/scss/bootstrap";
-$theme-colors: (
-  "primary":    $green,
-  "secondary":  $green-900,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark
-);
+$secondary: #20c997;
 
-body {
+#horizontal {
   background-color: $bg-main;
 }
 
-#horizontal {
-  background-color: $secondary;
-}
+// .center-img {
+//   display: flex;
+//   justify-content: space-evenly;  
+// }
+
+// .center-img {
+// }
 
 body, html {
   height: 100%;
-  margin: 0;
+  margin: 2;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: $bg-main;
 }
 
 * {
@@ -31,8 +26,9 @@ body, html {
 
 .bg-image {
   /* Full height */
-  height: 50%; 
-  
+  height: auto;
+  width: 100%;
+ 
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -40,12 +36,12 @@ body, html {
 }
 
 /* Images used */
-.img1 { background-image: url("images/"); }
-.img2 { background-image: url("img_girl.jpg"); }
-.img3 { background-image: url("img_lights.jpg"); }
-.img4 { background-image: url("img_nature.jpg"); }
-.img5 { background-image: url("img_forest.jpg"); }
-.img6 { background-image: url("img_woods.jpg"); }
+// .img1 { background-image: url("/US-History-Project/images/background-image.jpeg"); }
+// .img2 { background-image: url("/US-History-Project/images/bus.jpg"); }
+// .img3 { background-image: url("/US-History-Project/images/on-the-bus.png"); }
+// .img4 { background-image: url("/US-History-Project/images/rosa-parks.png"); }
+// .img5 { background-image: url("img_forest.jpg"); }
+// .img6 { background-image: url("img_woods.jpg"); }
 
 /* Position text in the middle of the page/image */
 .bg-text {
@@ -60,7 +56,6 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 300px;
   padding: 20px;
   text-align: center;
 }
